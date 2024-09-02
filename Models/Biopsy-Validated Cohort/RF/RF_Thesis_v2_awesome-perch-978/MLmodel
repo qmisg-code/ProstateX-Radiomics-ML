@@ -1,0 +1,39 @@
+artifact_path: RF_Thesis_v2_awesome-perch-978
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.15.1
+model_size_bytes: 438014
+model_uuid: 715c16886fa0468b94d91796521b43f9
+run_id: eb4ff3cff682428f8ba1614e3cd07050
+signature:
+  inputs: '[{"type": "double", "name": "ADC_original_firstorder_10Percentile", "required":
+    true}, {"type": "double", "name": "T2_log-sigma-2-0-mm-3D_firstorder_90Percentile",
+    "required": true}, {"type": "double", "name": "ADC_log-sigma-3-0-mm-3D_glcm_Autocorrelation",
+    "required": true}, {"type": "double", "name": "ADC_wavelet-LHL_glcm_Correlation",
+    "required": true}, {"type": "double", "name": "ADC_wavelet-LHH_glszm_LargeAreaEmphasis",
+    "required": true}, {"type": "double", "name": "ADC_wavelet-LLH_firstorder_Maximum",
+    "required": true}, {"type": "double", "name": "ADC_log-sigma-2-0-mm-3D_firstorder_90Percentile",
+    "required": true}, {"type": "double", "name": "T2_wavelet-LHH_ngtdm_Busyness",
+    "required": true}, {"type": "double", "name": "ADC_wavelet-HLL_firstorder_Entropy",
+    "required": true}, {"type": "double", "name": "T2_wavelet-HLL_firstorder_Kurtosis",
+    "required": true}, {"type": "double", "name": "ADC_original_firstorder_Entropy",
+    "required": true}, {"type": "double", "name": "T2_log-sigma-4-0-mm-3D_ngtdm_Strength",
+    "required": true}, {"type": "double", "name": "ADC_wavelet-LHL_firstorder_Minimum",
+    "required": true}, {"type": "double", "name": "T2_wavelet-LLH_glrlm_RunVariance",
+    "required": true}, {"type": "double", "name": "T2_log-sigma-3-0-mm-3D_glcm_ClusterShade",
+    "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+utc_time_created: '2024-08-19 15:46:31.963797'

@@ -1,0 +1,39 @@
+artifact_path: LR_Thesis_v2_auspicious-cod-982
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.15.1
+model_size_bytes: 2570
+model_uuid: e927096187da462e9c106e674a0e9c9c
+run_id: 109f2bd4e3654c7d82de417edf7009bd
+signature:
+  inputs: '[{"type": "double", "name": "ADC_original_firstorder_10Percentile", "required":
+    true}, {"type": "double", "name": "T2_wavelet-HLL_glrlm_LongRunLowGrayLevelEmphasis",
+    "required": true}, {"type": "double", "name": "ADC_log-sigma-5-0-mm-3D_glszm_LargeAreaLowGrayLevelEmphasis",
+    "required": true}, {"type": "double", "name": "ADC_log-sigma-3-0-mm-3D_glcm_Autocorrelation",
+    "required": true}, {"type": "double", "name": "T2_wavelet-LHH_ngtdm_Busyness",
+    "required": true}, {"type": "double", "name": "ADC_log-sigma-2-0-mm-3D_firstorder_90Percentile",
+    "required": true}, {"type": "double", "name": "ADC_wavelet-LHL_glcm_Correlation",
+    "required": true}, {"type": "double", "name": "ADC_wavelet-LHL_firstorder_Minimum",
+    "required": true}, {"type": "double", "name": "ADC_wavelet-LLH_firstorder_Maximum",
+    "required": true}, {"type": "double", "name": "ADC_original_glszm_LargeAreaLowGrayLevelEmphasis",
+    "required": true}, {"type": "double", "name": "T2_log-sigma-2-0-mm-3D_glszm_SizeZoneNonUniformity",
+    "required": true}, {"type": "double", "name": "T2_original_firstorder_10Percentile",
+    "required": true}, {"type": "double", "name": "ADC_original_firstorder_Entropy",
+    "required": true}, {"type": "double", "name": "ADC_wavelet-LHL_firstorder_Mean",
+    "required": true}, {"type": "double", "name": "T2_original_shape_MeshVolume",
+    "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+utc_time_created: '2024-08-19 15:20:10.466450'
