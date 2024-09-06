@@ -1,7 +1,9 @@
 # ProstateX-Radiomics-ML
 
 Publication under review. If data was used at the current state please contact the contributors.
-If any samples from ProstateX-Train were used please cite:
+https://www.researchgate.net/profile/Mahmoud-Morafegh
+
+If any samples from ProstateX-Train were used please cite the other study:
 
 R. Cuocolo, A. Stanzione, A. Castaldo, D.R. De Lucia, M. Imbriaco, Quality control and whole-gland, zonal and lesion annotations for the PROSTATEx challenge public dataset, Eur. J. Radiol. (2021) 109647. https://doi.org/10.1016/j.ejrad.2021.109647
 
